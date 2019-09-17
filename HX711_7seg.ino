@@ -80,21 +80,7 @@ void setDigit(unsigned int row, unsigned int digit, boolean decimalPoint)
  *   Note this is multiplexed, so you need to keep calling it
  *   or you'll end up with just one digit lit.
  */
-//void displayNumber(int number){
-//
-//  int thousands,hundreds,tens,units;
-//  thousands = number/1000;
-//  hundreds = number/100%10;
-//  tens = number/10%10; 
-//  units = number%10;
-//
-//  
-//  setDigit(3, thousands, false); // display righmost 4 bits (1 digit)
-//  setDigit(2, hundreds, false);  
-//  setDigit(1, tens, true);
-//  setDigit(0, units, false);
-////  delay(0.0001);
-//}
+
 
 void displayNumber(int number){
 
